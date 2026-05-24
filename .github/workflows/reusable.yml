@@ -1,5 +1,6 @@
 name: Reusable workflow
-on: push
+on:
+    workflow_call: 
 jobs:
     greetings:
         runs-on: ubuntu-latest
