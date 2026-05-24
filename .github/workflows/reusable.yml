@@ -1,0 +1,8 @@
+name: Reusable workflow
+on: push
+jobs:
+    greetings:
+        runs-on: ubuntu-latest
+        steps:
+            - name: greets work
+              run: echo "this is my workflow"
